@@ -3,8 +3,8 @@ import Intro from "./components/Intro"
 import Footer from "./components/Footer"
 import Experience from "./components/Experience"
 import Contact from "./components/Contact"
-import {Route, Routes } from 'react-router-dom'
 import Skills from './components/Skills'
+import {Route, Routes } from 'react-router-dom'
 
 function App() {
   return (

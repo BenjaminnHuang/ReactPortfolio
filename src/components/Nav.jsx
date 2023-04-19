@@ -16,7 +16,7 @@ const Nav = () => {
                 <Link to="/experience">Experience</Link>
             </li>
             <li className='hover:text-4xl duration-300 max-w-fit'>
-                <a href="">Skills</a>
+                <Link to="/skills">Skills</Link>
             </li>
             <li className='hover:text-4xl duration-300 max-w-fit'>
                 <Link to="/contact">Contact</Link>
