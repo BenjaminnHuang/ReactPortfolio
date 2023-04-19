@@ -1,7 +1,7 @@
 import React from 'react'
 import Nav from './Nav'
 
-const Contact = () => {
+const Skills = () => {
   return (
     <div className='bg-gray-800 h-screen'>
       <Nav/>
@@ -9,4 +9,4 @@ const Contact = () => {
   )
 }
 
-export default Contact
+export default Skills

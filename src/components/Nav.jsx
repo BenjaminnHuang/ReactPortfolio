@@ -3,23 +3,23 @@ import { Link } from 'react-router-dom'
 
 const Nav = () => {
   return (
-    <nav className='bg-gray-600 text-green-500 h-auto flex justify-between items-center font-Kanit font-semibold'>
+    <nav className='bg-gradient-to-br from-white to-white text-transparent bg-clip-text flex-col flex gap-6 p-6 font-Exo'>
         <Link to="/">
-            <h1 className='lg:text-3xl m-4 pl-6 md:text-xl text-lg'>Welcome</h1>
+            <h1 className='lg:text-5xl md:text-xl text-lg'>Benjamin</h1>
         </Link>
 
-        <ul className='flex gap-2 md:gap-4 lg:gap-8 lg:text-xl text-md md:text-lg text-md mx-5'>
-            <li>
+        <ul className='flex-col flex gap-6 lg:text-3xl text-md md:text-lg text-md mt-10'>
+            <li className='hover:text-4xl duration-300 max-w-fit'>
                 <Link to="/">Intro</Link>
             </li>
-            <li>
+            <li className='hover:text-4xl duration-300 max-w-fit'>
                 <Link to="/experience">Experience</Link>
             </li>
-            <li>
+            <li className='hover:text-4xl duration-300 max-w-fit'>
                 <a href="">Skills</a>
             </li>
-            <li>
-                <a href="">Contact</a>
+            <li className='hover:text-4xl duration-300 max-w-fit'>
+                <Link to="/contact">Contact</Link>
             </li>
         </ul>
 

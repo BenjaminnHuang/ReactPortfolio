@@ -5,9 +5,14 @@ export default {
   darkMode: 'class',
   theme: {
     extend: {
+      colors: {
+        orange_1: '#eecda3',
+        pink_1: '#ef629f'
+      },
       fontFamily: {
         inter:['inter', 'serif'],
         Kanit:['Kanit'],
+        Exo:['exo'],
       }
     },
   },

@@ -6,9 +6,9 @@ const Intro = () => {
   return (
 
 
-    <div className='w-screen h-screen bg-gray-800 text-gray-100'>
+    <div className='h-screen bg-gray-800 text-gray-100 flex flex-row'>
       <Nav/>
-      <div className='mt-36 mx-4 flex flex-col h-auto lg:flex-row justify-evenly items-center bg-gray-800'>
+      <div className='mt-36 mx-4 flex flex-col h-auto lg:flex-row justify-evenly items-center'>
         <div className='flex flex-col items-center'>
           <img src="../assets/selfie.png" className='rounded-full border-4 border-indigo-400 w-2/5 grayscale hover:grayscale-0 duration-500 shadow-xl lg:w-4/5 md:w-3/5'/>
           <h1 className='text-xl mt-4 font-Kanit lg:text-3xl md:text-2xl'>Hung-I Huang (Benjamin)</h1>

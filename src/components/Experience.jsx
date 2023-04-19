@@ -3,7 +3,7 @@ import Nav from './Nav'
 
 const Experience = () => {
   return (
-    <div className=''>
+    <div className='bg-gray-800 h-screen'>
       <Nav/>
     </div>
   )
