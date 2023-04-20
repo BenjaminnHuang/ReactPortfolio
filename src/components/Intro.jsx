@@ -6,7 +6,7 @@ const Intro = () => {
   return (
 
 
-    <div className='h-screen bg-gray-800 text-gray-100 flex flex-row'>
+    <div className='border-t-8 border-l-8 border-cyan-800 h-screen bg-gray-800 text-gray-100 flex flex-row'>
       <Nav/>
       <div className='mt-36 mx-4 flex flex-col h-auto lg:flex-row justify-evenly items-center'>
         <div className='flex flex-col items-center'>
