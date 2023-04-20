@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom'
 
 const Nav = () => {
   return (
-    <nav className='bg-gradient-to-br from-white to-white text-transparent bg-clip-text w-52 flex-col flex gap-6 p-6 font-Exo'>
+    <nav className='bg-gradient-to-br from-white to-white text-transparent bg-clip-text w-60 flex-col flex gap-6 p-6 font-Exo'>
         <Link to="/">
             <h1 className='lg:text-5xl md:text-xl text-lg'>Benjamin</h1>
         </Link>
