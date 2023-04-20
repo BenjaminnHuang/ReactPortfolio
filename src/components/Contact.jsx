@@ -7,7 +7,8 @@ const Contact = () => {
 
   const [formData, setFormData] = React.useState(
     { 
-      user_name: "",
+      first_name: "",
+      last_name: "",
       user_email: "",
       message: ""
     }
@@ -32,7 +33,8 @@ const Contact = () => {
       });
     
       setFormData({
-        user_name: "",
+        first_name: "",
+        last_name: "",
         user_email: "",
         message: ""
       })
@@ -41,12 +43,15 @@ const Contact = () => {
   return (
     <div className='bg-gray-800 h-screen flex flex-row'>
       <Nav/>
-      <form className='bg-gray-700 p-8 rounded-lg w-5/12 h-1/2 self-center ml-80 text-center text-black flex flex-col '>
-        <input className='mt-3 rounded-lg p-2' placeholder='Your Name' type="text" value={formData.user_name} name="user_name" onChange={handleForm}/>
-        <input className='mt-3 rounded-lg p-2' placeholder='Your Email' type="email" value={formData.user_email} name="user_email" onChange={handleForm}/>
-        <textarea className='mt-3 h-3/5 rounded-lg p-2' placeholder='Message' value={formData.message} name="message" onChange={handleForm}/>
+      <form className='bg-gray-700 p-8 rounded-lg w-4/12 h-1/2 self-center ml-80 text-center text-black flex flex-col '>
+        <div className='flex-row flex gap-5'>
+          <input className='rounded-lg p-2 w-1/2 focus:bg-gray-200' placeholder='First Name' type="text" value={formData.first_name} name="first_name" onChange={handleForm}/>
+          <input className='rounded-lg p-2 w-1/2 focus:bg-gray-200' placeholder='Last Name' type="text" value={formData.last_name} name="last_name" onChange={handleForm}/>
+        </div>
+        <input className='mt-8 rounded-lg p-2 focus:bg-gray-200' placeholder='Email' type="email" value={formData.user_email} name="user_email" onChange={handleForm}/>
+        <textarea className='mt-8 h-3/5 rounded-lg p-2 focus:bg-gray-200' placeholder='Message...' value={formData.message} name="message" onChange={handleForm}/>
         <button type='submit' onClick={sendEmail}
-          className='self-center p-4 hover:bg-gray-400 hover:shadow-gray-600 hover:shadow-inner bg-white mt-4 w-1/4 rounded-lg text-black'
+          className='self-center p-4 hover:bg-gray-400 hover:shadow-gray-600 hover:shadow-inner bg-white mt-8 w-1/4 rounded-lg text-black'
         >Submit</button>
       </form>
       
