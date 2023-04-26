@@ -13,15 +13,16 @@ const Experience = () => {
         link={item.link}
         description={item.description}
         title={item.title}
+        languagues={item.languages}
       />
     )
   })
   
   return (
-    <div className='bg-gray-800 h-auto flex flex-row'>
+    <div className='bg-gradient-to-b from-black to-gray-900 h-auto flex flex-row'>
       <Nav/>
       
-      <div className='flex flex-col m-auto mt-20'>
+      <div className='grid grid-cols-1 md:grid-cols-2 gap-16 m-auto mt-10'>
         {project}
       </div>
 
