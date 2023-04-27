@@ -1,5 +1,6 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
+import Footer from "./Footer"
 
 const Nav = () => {
   return (
@@ -13,7 +14,7 @@ const Nav = () => {
                 <Link to="/">Intro</Link>
             </li>
             <li className='lg:hover:text-4xl md:hover:text-xl duration-300 max-w-fit'>
-                <Link to="/experience">Experience</Link>
+                <Link to="/projects">Projects</Link>
             </li>
             <li className='lg:hover:text-4xl md:hover:text-xl duration-300 max-w-fit'>
                 <Link to="/skills">Skills</Link>
@@ -22,6 +23,10 @@ const Nav = () => {
                 <Link to="/contact">Contact</Link>
             </li>
         </ul>
+
+        <div className='mt-24 ml-4'>
+            <Footer/>
+        </div>
 
     </nav>
   )

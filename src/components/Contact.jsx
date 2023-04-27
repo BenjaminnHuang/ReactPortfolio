@@ -41,7 +41,7 @@ const Contact = () => {
   }
 
   return (
-    <div className='bg-gradient-to-b from-black to-gray-900 h-screen flex flex-row justify-content-center'>
+    <div className='bg-gray-800 h-screen flex flex-row justify-content-center'>
       <Nav/>
       <form className='bg-gray-500 border-b-4 border-r-4 shadow-md border-gray-700 p-8 rounded-lg w-4/12 h-2/3 self-center mx-auto text-center text-black flex flex-col hover:border-b-8 hover:border-r-8'>
         <div className='flex-row flex gap-5'>
