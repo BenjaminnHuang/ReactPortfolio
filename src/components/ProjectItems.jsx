@@ -3,7 +3,7 @@ import {FaReact} from "react-icons/fa"
 import {IoLogoJavascript, IoLogoCss3, IoLogoHtml5} from "react-icons/io5"
 import { IconContext} from "react-icons";
 
-function ProjectItems({link, title, description, image, languagues}){
+function ProjectItems({link, title, description, image, languagues, vid}){
 
     const icons = languagues.map(item => {
         return(
@@ -13,21 +13,21 @@ function ProjectItems({link, title, description, image, languagues}){
         )
     })
 
+    const projectLabel = image == '' ? <video className=" cursor-pointer rounded-lg opacity-80 hover:opacity-100"  src={vid} autoPlay loop muted/> : <img src={image} alt="project" className="cursor-pointer rounded-lg opacity-80 hover:opacity-100"/>
+
     return(
         <div className="flex flex-col">
             <h1 className="text-white text-lg md:text-4xl mb-4">{title}</h1>
             
-            <div className="bg-gray-500 rounded-lg overflow-hidden h-5/6 max-w-md">
+            <div className="overflow-hidden h-auto max-w-md">
+                {/*Image 770 x 770*/}
+                <a href={link} target="_blank">{projectLabel}</a>
+                   
+                <div className="text-gray-200 my-6 text-3xl">{description}</div>
 
-                {/*Image*/}
-                <img src={image} alt="project" className="cursor-pointer"/>
-                
-                <div className="flex justify-center flex-row m-4 gap-8">
+                <div className="flex justify-start flex-row gap-8">
                     {icons}
                 </div>
-                   
-                <div className="text-gray-200 m-6 text-3xl">{description}</div>
-                
             </div>
         </div>
     )

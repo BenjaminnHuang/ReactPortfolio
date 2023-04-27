@@ -10,10 +10,11 @@ const jsIcon = <IoLogoJavascript className="w-auto h-16 rounded-full bg-white p-
 const data = [
     {
     key: 1,
-    img: '../assets/selfie.png',
+    img: '../assets/reflect.png',
+    vid: '',
     title: 'MoodTracker',
     description: 'This is a CRUD website that gives the user the ability to write down their notes and mood on the specific date.',
-    link: 'sdsdsdsdsd,',
+    link: 'https://benjaminnhuang.github.io/MoodTracker/source/hello-page/home-page.html',
     languages: [
         reactIcon, 
         cssIcon,
@@ -23,10 +24,11 @@ const data = [
     },
     {
         key: 2,
-        img: '../assets/selfie.png',
-        title: 'MoodTracker',
-        description: 'This is a CRUD website that gives the user the ability to write down their notes and mood on the specific date. The motivation is to encourage people to take care of their mental status in this modern society.',
-        link: 'sdsdsdsdsd,',
+        img: '',
+        vid: '../assets/Tetris.mp4',
+        title: 'Tetris',
+        description: 'This is a CRUD website that gives the user the ability to write down their notes and mood on the specific date.',
+        link: '',
         languages: [
             htmlIcon,
             jsIcon
@@ -34,10 +36,11 @@ const data = [
     },
     {
         key: 3,
-        img: '../assets/selfie.png',
-        title: 'MoodTracker',
-        description: 'This is a CRUD website that gives the user the ability to write down their notes and mood on the specific date. The motivation is to encourage people to take care of their mental status in this modern society.',
-        link: 'sdsdsdsdsd,',
+        img: '',
+        vid: '../assets/SnakeGame.mp4',
+        title: 'SnakeGame',
+        description: 'This is a CRUD website that gives the user the ability to write down their notes and mood on the specific date.',
+        link: 'https://github.com/BenjaminnHuang/SnakeGame',
         languages: [
             htmlIcon,
             jsIcon
@@ -45,10 +48,11 @@ const data = [
     },
     {
         key: 4,
-        img: '../assets/selfie.png',
-        title: 'MoodTracker',
-        description: 'This is a CRUD website that gives the user the ability to write down their notes and mood on the specific date. The motivation is to encourage people to take care of their mental status in this modern society.',
-        link: 'sdsdsdsdsd,',
+        img: '',
+        vid: '../assets/PongGame.mp4',
+        title: 'PongGame',
+        description: 'This is a CRUD website that gives the user the ability to write down their notes and mood on the specific date.',
+        link: 'https://github.com/BenjaminnHuang/PongGame',
         languages: [
             htmlIcon,
             jsIcon
