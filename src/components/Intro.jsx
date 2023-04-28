@@ -18,7 +18,7 @@ const Intro = () => {
           </div>
 
           <div className=' md:text-xl mt-4 w-full text-start md:w-4/5 h-auto lg:w-3/5 p-6 font-Kanit lg:text-3xl tracking-wider leading-relaxed hover:bg-slate-700 duration-300 rounded-lg'>
-          I’m Benjamin (Hung-I) Huang, a Web Developer and Software Engineer who graduated from UCSD and is currently based in the Bay Area. I places a high value on programming
+          I’m Benjamin (Hung-I) Huang, a Web Developer and Software Engineer who graduated from UCSD and is currently based in the San Diego. I places a high value on programming
            as a tool that can create engaging digital user experiences, and create intuitive websites for people to navigate through the tech world. I specializes in building interactive 
            websites, programming, and game design.  
           </div>
