@@ -52,7 +52,7 @@ const skills = [
             star,
             star,
             star,
-            star,
+            noStar,
             noStar
         ]
     },
@@ -100,7 +100,7 @@ const skills = [
             star,
             star,
             star,
-            star,
+            noStar,
             noStar
         ]
     },
