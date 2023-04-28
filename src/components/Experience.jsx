@@ -23,7 +23,7 @@ const Experience = () => {
     <div className='bg-gray-800 h-auto flex flex-row'>
       <Nav/>
       
-      <div className='grid grid-cols-1 md:grid-cols-2 gap-20 m-auto mt-10'>
+      <div className='grid grid-cols-1 md:grid-cols-2 gap-20 m-auto mt-36 xl:gap-36'>
         {project}
       </div>
 
