@@ -19,7 +19,7 @@ function ProjectItems({link, title, description, image, languagues, vid}){
         <div className="flex flex-col">
             <h1 className="text-white text-2xl xl:text-6xl lg:text-5xl md:text-4xl mb-4 font-Titilium font-bold">{title}</h1>
             
-            <div className="overflow-hidden h-auto xl:max-w-md max-w-sm font-Titilium">
+            <div className="overflow-hidden h-auto  xl:max-w-sm max-w-xs font-Titilium">
                 {/*Image 770 x 770*/}
                 <a href={link} target="_blank">{projectLabel}</a>
                    
