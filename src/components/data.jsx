@@ -30,7 +30,7 @@ const data = [
         vid: '../assets/Tetris.mp4',
         title: 'Tetris',
         description: 'Remade of a classic game called Tetris. Getting score by eliminating the lines.',
-        link: '',
+        link: 'https://github.com/BenjaminnHuang/Tetris',
         languages: [
             csharpIcon,
             unityIcon
