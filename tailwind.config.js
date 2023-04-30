@@ -13,6 +13,8 @@ export default {
         inter:['inter', 'serif'],
         Kanit:['Kanit'],
         Exo:['exo'],
+        Montserrat:['Montserrat', 'sans-serif'],
+        Titilium:['Titillium Web', 'sans-serif']
       }
     },
   },
