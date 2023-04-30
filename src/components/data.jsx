@@ -40,7 +40,7 @@ const data = [
         key: 3,
         img: '',
         vid: '../assets/SnakeGame.mp4',
-        title: 'SnakeGame',
+        title: 'Snake Game',
         description: 'Remade of a classic game called SnakeGame. Player reaches higher point by getting the fruit block without hitting themselves or the walls.',
         link: 'https://github.com/BenjaminnHuang/SnakeGame',
         languages: [

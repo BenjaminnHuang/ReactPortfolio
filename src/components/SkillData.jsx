@@ -88,7 +88,7 @@ const skills = [
             star,
             star,
             star,
-            star,
+            noStar,
             noStar
         ]
     },
@@ -125,18 +125,6 @@ const skills = [
             star,
             star,
             star,
-            noStar
-        ]
-    },
-    {
-        key: 10,
-        skill: cIcon,
-        level: 
-        [
-            star,
-            star,
-            star,
-            noStar,
             noStar
         ]
     }
