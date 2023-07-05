@@ -10,8 +10,8 @@ const Intro = () => {
         <Nav/>
         <div className=' mt-24 mx-4 flex flex-col h-auto justify-center items-center md:gap-4'>
           <div className='flex flex-col items-center'>
-            <img src="../assets/selfie.png" className='rounded-full border-4 
-             border-indigo-400 w-1/6 grayscale hover:grayscale-0 duration-500 shadow-xl lg:w-2/5 md:w-1/5'/>
+            <img src="../assets/selfie.jpg" className=' border-4 
+              w-1/4 shadow-xl lg:w-1/3 md:w-1/5'/>
 
             <h1 className='text-xl mt-4 font-Montserrat font-bold lg:text-3xl md:text-2xl'>Hung-I Huang (Benjamin)</h1>
             <p className='font-semibold font-Montserrat text-lg lg:text-2xl md:text-xl'>Web Developer & Software Engineer</p>

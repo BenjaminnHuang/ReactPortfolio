@@ -8,9 +8,6 @@ import {Route, Routes } from 'react-router-dom'
 import data from './components/data'
 
 function App() {
-  const projects = data.map(item=>{
-    return 
-  })
   return (
     <Routes>
       <Route path="/" element={<Intro/>}/>
